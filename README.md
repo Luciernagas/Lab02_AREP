@@ -22,7 +22,10 @@ Finalmente para ejecutar el programa se debe ingresar el siguiente comando:
 ~~~
 java -cp "./target/classes" org.example.laboratorio.HttpServer
 ~~~
-Cuando en la terminal veamos el mensaje "Listo para recibir ..." ingresamos mediante nuestro browser a la ruta http://localhost:35000.
+Cuando en la terminal veamos el mensaje "Listo para recibir ..." ingresamos mediante nuestro browser a la siguiente ruta:
+```
+localhost:35000/(el archivo o imagen que desea visualizar con su extensión correspondiente)
+```
 
 Los archivos disponibles en el disco local se encuentran en la ruta /src/main/resources, se encontrará 2 carpetas, images que contiene los archivos tipo imagen (jpg, png y gif) y www en donde se encontraran los archivos html, js y css, se tiene 2 archivos para la prueba de los html (index.html y page2.html) y por otro lado un archivo html en donde se probaban una página creada con JavaScript y css.
 
