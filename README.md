@@ -47,6 +47,13 @@ En la sección de pruebas se confirmará el correcto funcionamiento del servidor
 
 
 * * *
+### Arquitectura del prototipo
+El prototipo presentado es un servidor HTTP que utiliza sockets para recibir conexiones, procesa solicitudes y genera respuestas en función de las rutas solicitadas, en mi concepto su arquitectura está dada por:
+* La configuración de un ServerSocket en el puerto 35000 para que los usuarios logren una conexión con el servidor.
+* El análisis las solicitudes HTTP recibidas en donde se identifica la ruta solicitada y el método HTTP utilizado.
+* Basarse en la solicitud y la ruta para generar respuestas adecuadas (archivos .html, .js, .css, .jpg, .png o .gif).
+
+* * *
 ### Construido con
 * Maven - Gestión de dependencias
 
